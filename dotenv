@@ -19,8 +19,9 @@ SL_HOST=
 # SCALELITE_RECORDING_DIR=/mnt/scalelite-recordings/var/bigbluebutton
 #
 ### Required by scalelite-nginx (only When using SSL)
-# NGINX_SSL=true
-# SCALELITE_NGINX_EXTRA_OPTS=--mount type=bind,source=/etc/letsencrypt,target=/etc/nginx/ssl,readonly
+URL_HOST=
+NGINX_SSL=true
+SCALELITE_NGINX_EXTRA_OPTS=--mount type=bind,source=/etc/letsencrypt,target=/etc/nginx/ssl,readonly
 #
 ### Required when when specific repo or version (other than defaults) are needed (DEPRECATED)
 # SCALELITE_REPO=blindsidenetwks
